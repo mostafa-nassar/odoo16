@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"    ?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <odoo>
 
 
 
     <record id="replacementcost_form" model="ir.ui.view">
-<field name="name">تكلفة الإحلال والتجديد والمشروعات الجديدة</field>
+<field name="name">replacement_form</field>
 <field name="model">replacement.cost</field>
 <field name="arch" type="xml">
     <form>
@@ -85,7 +85,7 @@
 
 
        <record id="replacementcost_tree" model="ir.ui.view">
-        <field name="name">تكلفة الإحلال والتجديد والمشروعات الجديدة</field>
+        <field name="name">replacement_tree</field>
         <field name="model">replacement.cost</field>
         <field name="arch" type="xml">
             <tree>

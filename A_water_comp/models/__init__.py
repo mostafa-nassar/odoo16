@@ -6,3 +6,6 @@ from . import Electricity
 from . import Cost_per_cubic
 from . import water_statement
 from . import replacement
+from . import staff_number
+from . import collection_table
+from . import investment_projects

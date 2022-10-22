@@ -32,6 +32,9 @@
         'views/Cost_per_cubic.xml',
         'views/water_statement.xml',
         'views/replacement.xml',
+        'views/staff_number.xml',
+        'views/collection_table.xml',
+        'views/investment_projects.xml',
 
     ],
     # only loaded in demonstration mode

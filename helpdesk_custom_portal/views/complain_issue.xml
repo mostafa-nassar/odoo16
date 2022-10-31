@@ -55,7 +55,6 @@
 
         <!-- This Menu Item must have a parent and an action -->
         <menuitem id="menu_complain_issue" name="تصنيف الشكوي" action="helpdesk_custom_portal.complain_issue_action"
-                  sequence="-10" parent="helpdesk_custom_portal.menu_complain_issue_confj"
-        />
+                  sequence="-10" parent="helpdesk_custom_portal.menu_complain_issue_confj"/>
     </data>
 </odoo>

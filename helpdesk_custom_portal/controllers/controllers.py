@@ -4,7 +4,7 @@ from odoo.http import request
 
 class WebsiteHelpdesk_portal(http.Controller):
 
-    @http.route('''/hcww-helpdesk''', type='http', auth="user", website=True,
+    @http.route('''/ewra-helpdesk''', type='http', auth="user", website=True,
                 sitemap=True)
     def website_helpdesk_view(self, **kwargs):
         partners = request.env['res.partner'].search([('is_complaint','=',True)])

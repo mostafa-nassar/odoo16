@@ -41,7 +41,6 @@
 
         <!-- This Menu Item must have a parent and an action -->
         <menuitem id="menu_commercial_watter" name="تجاري" action="commercial_watter_action"
-                  sequence="3" parent="helpdesk_custom_portal.menu_complain_issue_confj"
-        />
+                  sequence="3" parent="helpdesk_custom_portal.menu_complain_issue_confj"/>
     </data>
 </odoo>

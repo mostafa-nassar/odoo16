@@ -41,7 +41,6 @@
 
         <!-- This Menu Item must have a parent and an action -->
         <menuitem id="menu_sewage" name="مياه الصرف الصحي" action="sewage_action"
-                  sequence="-1" parent="helpdesk_custom_portal.menu_complain_issue_confj"
-        />
+                  sequence="-1" parent="helpdesk_custom_portal.menu_complain_issue_confj"/>
     </data>
 </odoo>
